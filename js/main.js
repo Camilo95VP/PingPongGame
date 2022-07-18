@@ -1,3 +1,6 @@
+import { GamePingPong } from "./components/game.js";
+import { Dot } from "./components/dot.js";
+
 /**
  * en este apartado de crean las diferentes instancias 
  * para los componentes del juego
@@ -5,7 +8,7 @@
 const board = new Board(800, 400);
 const leftBar = new Bar(20, 100, 40, 100, board);
 const rightBar = new Bar(735, 100, 40, 100, board);
-const ball = new Ball(350, 100, 10, board);
+const dot = new Dot(350, 100, 10, board);
 const canvas = document.getElementById("canvas");
 const gamePingPong = new GamePingPong(canvas, board);
 /**
