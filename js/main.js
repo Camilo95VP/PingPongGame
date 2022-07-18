@@ -1,10 +1,13 @@
 import { Dot } from "../js/dot.js";
-import { BarNavegate } from "../js/bar-navigate";
+import { BarNavegate } from "../js/bar-navigate.js";
+import { BoardNavegate } from "../js/board-navegate.js";
+import { GamePingPong } from "../js/initGame.js";
+
 /**
  * en este apartado de crean las diferentes instancias 
  * para los componentes del juego
  */
-const board = new Board(800, 400);
+const board = new BoardNavegate(800, 400);
 const leftBar = new BarNavegate(20, 100, 40, 100, board);
 const rightBar = new BarNavegate(735, 100, 40, 100, board);
 const dot = new Dot(350, 100, 10, board);
