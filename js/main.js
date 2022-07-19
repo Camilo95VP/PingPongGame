@@ -1,7 +1,7 @@
-import { Dot } from "../js/dot.js";
-import { BarNavegate } from "../js/bar-navigate.js";
-import { BoardNavegate } from "../js/board-navegate.js";
-import { GamePingPong } from "../js/initGame.js";
+import { Dot } from "./utilities/dot.js";
+import { BarNavegate } from "./utilities/bar-navigate.js";
+import { BoardNavegate } from "./utilities/board-navegate.js";
+import { GamePingPong } from "./utilities/initGame.js";
 
 /**
  * en este apartado de crean las diferentes instancias 
