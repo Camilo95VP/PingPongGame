@@ -1,15 +1,15 @@
+import { GamePingPong } from "./utilities/initGame.js";
 import { Dot } from "./utilities/dot.js";
 import { BarNavegate } from "./utilities/bar-navigate.js";
 import { BoardNavegate } from "./utilities/board-navegate.js";
-import { GamePingPong } from "./utilities/initGame.js";
 
 /**
  * en este apartado de crean las diferentes instancias 
- * para los componentes del juego
+ * para los componentes del juego comentario al spiner kjhsdyrn
  */
-const board = new BoardNavegate(800, 400);
-const leftBar = new BarNavegate(20, 100, 40, 100, board);
-const rightBar = new BarNavegate(735, 100, 40, 100, board);
+const board = new BoardNavegate(800, 500);
+const leftBar = new BarNavegate(2, 100, 20, 130, board);
+const rightBar = new BarNavegate(777, 100, 20, 130, board);
 const dot = new Dot(350, 100, 10, board);
 const canvas = document.getElementById("canvas");
 const gamePingPong = new GamePingPong(canvas, board);
@@ -54,7 +54,7 @@ gamePingPong.draw();
 window.requestAnimationFrame(controller);
 function controller() {
   if (gamePingPong.finish) {
-    alert("Lo siento perdiste");
+    alert("PERDISTE :( INTENTALO DE NUEVO");
     location.reload()
     return;
   }

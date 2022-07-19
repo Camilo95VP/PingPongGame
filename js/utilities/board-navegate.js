@@ -4,11 +4,6 @@
  */
  export class BoardNavegate {
 
-    /**  
-     * @constructor
-     * @param {number} width - ancho del tabledo canvan
-     * @param {*number} height - alto del tablero canvan
-     */
   constructor(width, height) {
     this.width = width;
     this.height = height;

@@ -22,9 +22,7 @@
   
   export class GamePingPong {
     /**
-     *
-     * @param {HTMLElement} canvas - Nodo padre donde se mostrara el juego
-     * @param {*} board - Tablero a mostrar en el navegador
+     * calse que inicia el juego
      */
     constructor(canvas, board) {
       this.canvas = canvas;

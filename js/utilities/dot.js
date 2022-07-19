@@ -3,7 +3,6 @@
  * @class 
  */
  export class Dot {
-
     /**
      * constructor para las coordenadas en la
      * que se movera la pelota a traves del tiempo
@@ -20,7 +19,7 @@
       this.max_bounce_angle = Math.PI / 12;
       this.speed = 3;
   
-      board.dot = this;
+      board.ball = this;
       this.kind = "circle";
     }
   
