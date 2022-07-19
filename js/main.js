@@ -7,7 +7,7 @@ import { BoardNavegate } from "./utilities/board-navegate.js";
  * en este apartado de crean las diferentes instancias 
  * para los componentes del juego comentario al spiner kjhsdyrn
  */
-const board = new BoardNavegate(800, 500);
+const board = new BoardNavegate(800, 430);
 const leftBar = new BarNavegate(2, 100, 20, 130, board);
 const rightBar = new BarNavegate(777, 100, 20, 130, board);
 const dot = new Dot(350, 100, 10, board);

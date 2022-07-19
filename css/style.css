@@ -106,3 +106,14 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,86,9,1) 35%, rgba
       ),
       linear-gradient(45deg, rgb(233, 248, 18), rgb(11, 174, 38));
   }
+  .container-start {
+    text-align: center;
+    color: rgb(255, 115, 0);
+  }
+  .container-good{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 43%;
+    width: 20%;
+    margin: 0 auto;
+  }
